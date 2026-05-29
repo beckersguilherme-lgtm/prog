@@ -13,11 +13,14 @@ typedef struct{
 int main(){
     
     pessoa p;
-
-    scanf(" %[^\n]", p.nome);
-    printf("nome:  ")
+    printf("nome:\n");
+    scanf(" %s", p.nome);
+    
+        printf("altura:\n");
     scanf("%f", &p.altura);
-    printf("altura:  ")
+    
+        printf("idade:\n");
     scanf("%d", &p.idade);
-    printf("idade:  ")
+  
+    
 }
