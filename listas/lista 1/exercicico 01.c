@@ -1,4 +1,4 @@
-#include
+#include <stdio.h> 
 #include <string.h>
 
 typedef struct{
@@ -7,8 +7,8 @@ typedef struct{
     float altura;
     int idade;
 
-pessoa;
-}
+
+} pessoa;
 
 int main(){
     
