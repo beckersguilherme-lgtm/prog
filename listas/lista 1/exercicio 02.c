@@ -19,5 +19,9 @@ int main(){
    printf("escolha o nome do time 02:\n");
    scanf("%49s", p.time2);
 
-   
+   printf("quantos gols o time 01 fez:\n");
+   scanf("%d", &p.gols1);
+
+   printf("quantos gols o time 02 fez:\n");
+   scanf("%d", &p.gols2);
 }
