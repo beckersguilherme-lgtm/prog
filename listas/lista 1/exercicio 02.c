@@ -24,4 +24,10 @@ int main(){
 
    printf("quantos gols o time 02 fez:\n");
    scanf("%d", &p.gols2);
+
+   if(gols1 >gols2){
+   }
+   {
+    else
+   }
 }
