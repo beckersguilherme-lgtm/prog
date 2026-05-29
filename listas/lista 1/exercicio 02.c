@@ -2,32 +2,34 @@
 #include <string.h>
 
 typedef struct {
-
-    char time1[50];
-    char time2[50];
- int gols1;
+int gols1;
 int gols2;
 
-}placar;
+}placar; 
 
-int main(){
+int main(){ 
+    
+    placar p;
+    
+printf("quantos gols o time 01 fez:\n");
+ scanf("%d", &p.gols1);
 
-   placar p;
-   printf("escolha o nome do time 01:\n");
-   scanf("%49s", p.time1);
+  printf("quantos gols o time 02 fez:\n");
+ scanf("%d", &p.gols2);
+ 
+ printf ("placar: %d x %d\n", p.gols1, p.gols2);
 
-   printf("escolha o nome do time 02:\n");
-   scanf("%49s", p.time2);
+  if(p.gols1 >p.gols2){
+      
+ printf("time01 venceu"); 
+  }
+  
+else if(p.gols1 < p.gols2){
+ printf("time02 venceu");
+ }
+ 
+ else{
+     printf("enpate");
+ }
 
-   printf("quantos gols o time 01 fez:\n");
-   scanf("%d", &p.gols1);
-
-   printf("quantos gols o time 02 fez:\n");
-   scanf("%d", &p.gols2);
-
-   if(gols1 >gols2){
-   }
-   {
-    else
-   }
 }
